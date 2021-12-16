@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+/*
+  Author: Jillian Karl
+   Filename: styles.css
+
+*/
+
+/* Window and Body Styles */
+html {
+	background-image: url("mountain.jpg");
+	background-attachment: scroll;
+}
+
+body {
+   background-color: rgb(255, 222, 253);
+   font-family: Verdana, Geneva, Arial, sans-serif; 
+}
+
+table, th, td {
+  border: 1px solid rgb(84, 25, 81);
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  background-color: rgb(230, 179, 255);
+}
+iframe {
+	padding-left: 275px;
+}
+
+form, h1 {
+	padding-left: 350px;
+	font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+/* Page Header Styles */
+
+body > header {
+   background-color: rgb(61, 138, 216);
+}
+
+
+body > header > nav a {
+   font-size: 1em;
+   margin: 0.4em 0;
+   padding: 5px;
+}
+
+body > header > nav a:link, body > header > nav:visited {
+   color: rgb(250, 238, 218);
+}
+
+body > header > nav a:hover, body > header > nav:active {
+   background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* Horizontal Navigation List Styles */
+
+nav.horizontal ul li {
+   font-size: 0.9em;
+   padding: 10px 0;
+   text-align: center;     
+}
+
+nav.horizontal a:link, nav.horizontal a:visited {
+   color: rgb(250, 238, 218);
+}
+
+nav.horizontal a:hover, nav.horizontal a:active {
+   color: rgb(255, 255, 64);
+}
+
+
+/* Topics Styles */
+   ul#topics {
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+
+ul#topics li p {
+   color: rgb(157, 38, 142);
+   font-size: 1.1em;
+   padding: 10px 2px;
+  
+}
+
+
+
+/* Customer Comment Styles */
+
+
+ul#comments li p {
+   font-size: 0.9em;
+   color: rgb(121, 121, 121);
+   line-height: 1.2em;
+}
+
+/* Footer Styles */
+
+footer {
+   color: rgb(277, 145, 224);
+   background-color: rgb(61, 138, 216);
+   font-size: 0.9em;
+   padding: 10px 0px;
+   text-align: center;
+}
